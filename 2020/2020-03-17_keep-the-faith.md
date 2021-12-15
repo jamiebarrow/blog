@@ -1,5 +1,7 @@
 # 2020-03-17 Keep the faith
 
+tags: believe, coronavirus, faith, love, personal
+
 Here in the Netherlands, coronavirus has been quite big news. The government had been criticised for [being too relaxed](https://dutchreview.com/news/dutch/coronavirus-the-netherlands-considers-its-relaxed-approach-to-the-outbreak-the-best-approach/), and here [in Breda](https://www.instagram.com/p/B9eTCnXj2N0/?utm_source=ig_web_copy_link) - one of the main cities close to Tilburg where COVID19 was first reported in the Netherlands - it has been quite interesting to see it develop.
 
 
