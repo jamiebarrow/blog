@@ -6,12 +6,11 @@ I just watched the talk by Scott Guthrie at Techdays 2012 in the Netherlands ent
 
 In the talk, Scott talks about some of the new features in ASP.NET 4, as well as touching on some new features of Entity Framework Code First. The highlights of the features are:
 - Database Migrations
-    - Bundling/Minification Support
-    - Web APIs
-    - Mobile Web
-    - Real Time Communication (SignalR)
-    - Asynchronous Support using language features (async and await)
-    
+- Bundling/Minification Support
+- Web APIs
+- Mobile Web
+- Real Time Communication (SignalR)
+- Asynchronous Support using language features (async and await)
 
 An extremely useful addition to EF Code First is that of database migrations, allowing you to progressively develop your code and database. Migrations allow you to deploy/rollback different versions of your database. Each migration can add/remove its parts to the database (e.g. adding a column when migrating up, or removing the column when migrating down, even perhaps extracting data to a temp table and processing it during a possibly destructive migration). The one project I was on had a whole custom written database patching/versioning framework which enabled true integration testing, as well as generation of deployment scripts, which EF Code First with migrations can probably provide out of the box now. Very nice.
 
@@ -26,4 +25,3 @@ The Real Time Communication with SignalR allows for the server to push through t
 The Async support just leverages existing asynchronous controller functionality, but allows you to do so using the async and await keywords that are part of the next version of .NET.
 
 I highly suggest that you watch the whole video, as always, the Gu's talk is full of useful information.
-
